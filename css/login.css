@@ -1,0 +1,1070 @@
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background: #50a3a2;
+}
+
+.back {
+    width: 1500px;
+    height: 900px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#50a3a2', endColorstr='#53e3a6', gradientType=1);
+    background: -webkit-linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    background: -webkit-linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    background: -ms-linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    background: -moz-linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    background: -o-linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+}
+
+.money1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    z-index: 0;
+    animation: money 30s linear 6s infinite normal;
+    -moz-animation: money 30s linear 6s infinite normal;
+    /* Firefox */
+    -webkit-animation: money 30s linear 6s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: money 30s linear 6s infinite normal;
+    -ms-animation: money 30s linear 6s infinite normal;
+}
+@keyframes money{
+    0% {
+        transform: rotateY(0deg);
+        -moz-transform:rotateY(0deg);
+        -webkit-transform:rotateY(0deg);
+        -ms-transform:rotateY(0deg);
+        top: -50px;
+    }
+    25% {
+        transform: rotateY(90deg);
+        -moz-transform:rotateY(90deg);
+        -webkit-transform:rotateY(90deg);
+        -ms-transform:rotateY(90deg);
+        top: 100px;
+      }
+    50% {
+        transform: rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        top: 400px;
+    }
+    100% {
+        transform: rotateY(360deg);
+        -moz-transform:rotateY(360deg);
+        -webkit-transform:rotateY(360deg);
+        -ms-transform:rotateY(360deg);
+        top: 800px;
+    }
+}
+.money2 {
+	height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -50px;
+    left: 300px;
+    z-index: 0;
+    animation: moneysecond 30s linear 6s infinite normal;
+    -moz-animation: moneysecond 30s linear 6s infinite normal;
+    /* Firefox */
+    -webkit-animation: moneysecond 30s linear 6s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: moneysecond 30s linear 6s infinite normal;
+    -ms-animation: moneysecond 30s linear 6s infinite normal;
+}
+@keyframes moneysecond{
+    0% {
+        transform: rotateY(0deg);
+        -moz-transform:rotateY(0deg);
+        -webkit-transform:rotateY(0deg);
+        -ms-transform:rotateY(0deg);
+        top: -50px;
+        height: 50px;
+        width: 50px;
+
+    }
+    25% {
+        transform: rotateY(90deg);
+        -moz-transform:rotateY(90deg);
+        -webkit-transform:rotateY(90deg);
+        -ms-transform:rotateY(90deg);
+        top: 350px;
+        height: 20px;
+        width: 20px;
+      }
+    50% {
+        transform: rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        top: 520px;
+        height: 30px;
+        width: 30px;
+    }
+    100% {
+        top: 800px;
+    }
+}
+.money3 {
+	height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -80px;
+    left: 500px;
+    z-index: 0;
+    animation: moneythird 40s linear 9s infinite normal;
+    animation-delay:-1s;
+    
+    
+    -moz-animation: moneythird 40s linear 9s infinite normal;
+    /* Firefox */
+    -webkit-animation: moneythird 40s linear 9s infinite normal;
+    -webkit-animation-delay:-1s;
+    /* Safari 和 Chrome */
+    -o-animation: moneythird 40s linear 9s infinite normal;
+    -ms-animation: moneythird 40s linear 9s infinite normal;
+    -ms-animation-delay:-2s;
+}
+@keyframes moneythird{
+    0% {
+        transform: rotateY(0deg);
+        -moz-transform:rotateY(0deg);
+        -webkit-transform:rotateY(0deg);
+        -ms-transform:rotateY(0deg);
+        top: -80px;
+    }
+    25% {
+        transform: rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        top:320px;
+      }
+    50% {
+        transform: rotateY(360deg);
+        -moz-transform:rotateY(360deg);
+        -webkit-transform:rotateY(360deg);
+        -ms-transform:rotateY(360deg);
+        top: 540px;
+    }
+    100% {
+        top: 800px;
+    }
+}
+.money4 {
+	height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -20px;
+    left: 700px;
+    z-index: 0;
+    animation: moneyfourth 35s linear 8s infinite normal;
+    -moz-animation: moneyfourth 35s linear 8s infinite normal;
+    /* Firefox */
+    -webkit-animation: moneyfourth 35s linear 8s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: moneyfourth 35s linear 8s infinite normal;
+    -ms-animation: moneyfourth 35s linear 8s infinite normal;
+}
+@keyframes moneyfourth{
+     0% {
+        transform: rotateY(0deg);
+        -moz-transform:rotateY(0deg);
+        -webkit-transform:rotateY(0deg);
+        -ms-transform:rotateY(0deg);
+        top: -20px;
+        width: 40px;
+        height: 40px;
+    }
+    25% {
+        transform: rotateY(90deg);
+        -moz-transform:rotateY(90deg);
+        -webkit-transform:rotateY(90deg);
+        -ms-transform:rotateY(90deg);
+        top: 280px;
+        width: 20px;
+        height: 20px;
+      }
+    50% {
+        transform: rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        top: 520px;
+    }
+    100% {
+        top: 800px;
+        transform: rotateY(360deg);
+        -moz-transform:rotateY(360deg);
+        -webkit-transform:rotateY(360deg);
+        -ms-transform:rotateY(360deg);
+    }
+}
+.money5 {
+	height: 10px;
+    width: 10px;
+    position: absolute;
+    top: -50px;
+    left: 800px;
+    z-index: 0;
+    animation: moneyfifth 45s linear 10s infinite normal;
+    -moz-animation: moneyfifth 45s linear 10s infinite normal;
+    /* Firefox */
+    -webkit-animation: moneyfifth 45s linear 10s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: moneyfifth 45s linear 10s infinite normal;
+    -ms-animation: moneyfifth 45s linear 10s infinite normal;
+}
+@keyframes moneyfifth{
+     0% {
+        
+        top: -50px;
+        width: 40px;
+        height: 40px;
+    }
+    25% {
+        
+        top: 210px;
+        width: 20px;
+        height: 20px;
+      }
+    50% {
+        
+        top: 520px;
+    }
+    100% {
+        top: 800px;
+       
+    }
+}
+.money6 {
+	height: 10px;
+    width: 10px;
+    position: absolute;
+    top: -80px;
+    left: 900px;
+    z-index: 0;
+    animation: moneysix 40s linear 10s infinite normal;
+    animation-delay:-1.5s;
+    
+    
+    -moz-animation: moneysix 40s linear 10s infinite normal;
+    /* Firefox */
+    -webkit-animation: moneysix 40s linear 10s infinite normal;
+    -webkit-animation-delay:-1.5s;
+    /* Safari 和 Chrome */
+    -o-animation: moneysix 40s linear 10s infinite normal;
+    -ms-animation: moneysix 40s linear 10s infinite normal;
+    -ms-delay:-1.5s;
+}
+@keyframes moneysix{
+     0% {
+        transform: rotateY(0deg);
+        -moz-transform:rotateY(0deg);
+        -webkit-transform:rotateY(0deg);
+        -ms-transform:rotateY(0deg);
+        top: -80px;
+        width: 40px;
+        height: 40px;
+    }
+    25% {
+        transform: rotateY(90deg);
+        -moz-transform:rotateY(90deg);
+        -webkit-transform:rotateY(90deg);
+        -ms-transform:rotateY(90deg);
+        top: 200px;
+        width: 20px;
+        height: 20px;
+      }
+    50% {
+        transform: rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        top:480px;
+    }
+    100% {
+        top: 810px;
+        transform: rotateY(360deg);
+        -moz-transform:rotateY(360deg);
+        -webkit-transform:rotateY(360deg);
+        -ms-transform:rotateY(360deg);
+    }
+}
+.money7 {
+	height: 10px;
+    width: 10px;
+    position: absolute;
+    top: -10px;
+    left: 1000px;
+    z-index: 0;
+    animation: moneyseventh 50s linear 10s infinite normal;
+    animation-delay:-2s;
+    -webkit-animation-delay:-2s;
+    -ms-animation-delay:-2s;
+    -moz-animation: moneyseventh 50s linear 10s infinite normal;
+    /* Firefox */
+    -webkit-animation: moneyseventh 50s linear 10s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: moneyseventh 50s linear 10s infinite normal;
+    -ms-animation: moneyseventh 50s linear 10s infinite normal;
+}
+@keyframes moneyseventh{
+     0% {
+        transform: rotateY(0deg);
+        -moz-transform:rotateY(0deg);
+        -webkit-transform:rotateY(0deg);
+        -ms-transform:rotateY(0deg);
+        top: -10px;
+        width: 40px;
+        height: 40px;
+    }
+    25% {
+        transform: rotateY(90deg);
+        -moz-transform:rotateY(90deg);
+        -webkit-transform:rotateY(90deg);
+        -ms-transform:rotateY(90deg);
+        top: 270px;
+        width: 20px;
+        height: 20px;
+      }
+    50% {
+        transform: rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        top: 580px;
+    }
+    100% {
+        top: 800px;
+        transform: rotateY(360deg);
+        -moz-transform:rotateY(360deg);
+        -webkit-transform:rotateY(360deg);
+        -ms-transform:rotateY(360deg);
+    }
+}
+.money8 {
+	height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -200px;
+    left: 1100px;
+    z-index: 0;
+    animation: moneyeight 60s linear 15s infinite normal;
+    -moz-animation: moneyeight 60s linear 15s infinite normal;
+    /* Firefox */
+    -webkit-animation: moneyeight 60s linear 15s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: moneyeight 60s linear 15s infinite normal;
+    -ms-animation: moneyeight 60s linear 15s infinite normal;
+}
+@keyframes moneyeight{
+     0% {
+        transform: rotateY(0deg);
+        -moz-transform:rotateY(0deg);
+        -webkit-transform:rotateY(0deg);
+        -ms-transform:rotateY(0deg);
+        top: -200px;
+        width: 40px;
+        height: 40px;
+    }
+    25% {
+        transform: rotateY(90deg);
+        -moz-transform:rotateY(90deg);
+        -webkit-transform:rotateY(90deg);
+        -ms-transform:rotateY(90deg);
+        top: 340px;
+        width: 20px;
+        height: 20px;
+      }
+    50% {
+        transform: rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        top: 600px;
+    }
+    100% {
+        top: 800px;
+        transform: rotateY(360deg);
+        -moz-transform:rotateY(360deg);
+        -webkit-transform:rotateY(360deg);
+        -ms-transform:rotateY(360deg);
+    }
+}
+
+
+
+
+.xuan1 {
+    width: 60px;
+    height: 60px;
+    background: white;
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+    opacity: 0.3;
+    z-index: 0;
+    animation: myfirst 25s linear 6s infinite normal;
+    -moz-animation: myfirst 25s linear 6s infinite normal;
+    /* Firefox */
+    -webkit-animation: myfirst 25s linear 6s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: myfirst 25s linear 6s infinite normal;
+    -ms-animation: myfirst 25s linear 6s infinite normal;
+}
+
+@keyframes myfirst {
+    0% {
+        transform: rotate(0deg);
+        top: 1200px;
+    }
+    25% {
+        transform: rotate(180deg);
+        top: 800px;
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        transform: rotate(270deg);
+        top: 600px;
+        width: 40px;
+        height: 40px;
+    }
+    100% {
+        transform: rotate(540deg);
+        top: -150px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.xuan2 {
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 1100px;
+    left: 200px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: mysecond 20s linear 4s infinite normal;
+    -moz-animation: mysecond 20s linear 4s infinite normal;
+    /* Firefox */
+    -webkit-animation: mysecond 20s linear 4s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: mysecond 20s linear 4s infinite normal;
+    -ms-animation: mysecond 20s linear 4s infinite normal;
+}
+
+@keyframes mysecond {
+    0% {
+        transform: rotate(0deg);
+        top: 1100px;
+    }
+    25% {
+        transform: rotate(180deg);
+        top: 700px;
+        width: 150px;
+        height: 150px;
+        opacity: 0.2
+    }
+    50% {
+        transform: rotate(270deg);
+        top: 300px;
+        width: 80px;
+        height: 80px;
+        opacity: 0.4
+    }
+    100% {
+        transform: rotate(360deg);
+        top: -150px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.7
+    }
+}
+
+.xuan5 {
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: 1000px;
+    left: 350px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: myfifth 22s linear 4s infinite normal;
+    -moz-animation: myfifth 22s linear 4s infinite normal;
+    /* Firefox */
+    -webkit-animation: myfifth 22s linear 4s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: myfifth 22s linear 4s infinite normal;
+    -ms-animation: myfifth 22s linear 4s infinite normal;
+}
+
+@keyframes myfifth {
+    0% {
+        transform: rotate(0deg);
+        top: 1000px;
+    }
+    25% {
+        transform: rotate(270deg);
+        top: 800px;
+        width: 50px;
+        height: 50px;
+        opacity: 0.2
+    }
+    50% {
+        transform: rotate(540deg);
+        top: 500px;
+        width: 150px;
+        height: 150px;
+        opacity: 0.4
+    }
+    100% {
+        transform: rotate(810deg);
+        top: -150px;
+        width: 40px;
+        height: 40px;
+        opacity: 0.2
+    }
+}
+
+.xuan3 {
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: 1200px;
+    left: 400px;
+    opacity: 0.2;
+    z-index: 0;
+    animation: mythird 26s linear 5s infinite normal;
+    -moz-animation: mythird 26s linear 5s infinite normal;
+    /* Firefox */
+    -webkit-animation: mythird 26s linear 5s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: mythird 26s linear 5s infinite normal;
+    -ms-animation: mythird 26s linear 5s infinite normal;
+}
+
+@keyframes mythird {
+    0% {
+        transform: rotate(0deg);
+        top: 1200px;
+    }
+    25% {
+        transform: rotate(180deg);
+        top: 800px;
+        width: 30px;
+        height: 30px;
+        opacity: 0.5
+    }
+    50% {
+        transform: rotate(360deg);
+        top: 400px;
+        width: 10px;
+        height: 10px;
+        opacity: 0.1
+    }
+    100% {
+        transform: rotate(720deg);
+        top: -150px;
+        width: 80px;
+        height: 80px;
+        opacity: 0.3
+    }
+}
+
+.xuan4 {
+    width: 300px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    top: 870px;
+    left: 500px;
+    opacity: 0.4;
+    z-index: 0;
+    animation: myfourth 30s linear 6s infinite normal;
+    animation-delay:-1s;
+    -moz-animation: myfourth 30s linear 6s infinite normal;
+    /* Firefox */
+    -webkit-animation: myfourth 30s linear 6s infinite normal;
+    -webkit-animation-delay:-1s;
+    /* Safari 和 Chrome */
+    -o-animation: myfourth 30s linear 6s infinite normal;
+    -ms-animation: myfourth 30s linear 6s infinite normal;
+    -ms-animation-delay:-1s;
+}
+
+@keyframes myfourth {
+    0% {
+        transform: rotate(0deg);
+        top: 870px;
+    }
+    25% {
+        transform: rotate(360deg);
+        top: 550px;
+        width: 180px;
+        height: 180px;
+        opacity: 0.2
+    }
+    50% {
+        transform: rotate(720deg);
+        top: 400px;
+        width: 220px;
+        height: 220px;
+        opacity: 0.6
+    }
+    100% {
+        transform: rotate(1440deg);
+        top: -200px;
+        width: 100px;
+        height: 100px;
+        opacity: 0.3
+    }
+}
+
+.xuan6 {
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 800px;
+    left: 600px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: mysixth 20s linear 5s infinite normal;
+    animation-delay:-1s;
+    -moz-animation: mysixth 20s linear 5s infinite normal;
+    /* Firefox */
+    -webkit-animation: mysixth 20s linear 5s infinite normal;
+    -webkit-animation-delay:-1s;
+    /* Safari 和 Chrome */
+    -o-animation: mysixth 20s linear 5s infinite normal;
+    -ms-animation: mysixth 20s linear 5s infinite normal;
+    -ms-animation-delay:-1s;
+}
+
+@keyframes mysixth {
+    0% {
+        transform: rotate(0deg);
+        top: 799px;
+    }
+    25% {
+        transform: rotate(270deg);
+        top: 500px;
+        width: 100px;
+        height: 100px;
+        opacity: 0.1
+    }
+    50% {
+        transform: rotate(540deg);
+        top: 300px;
+        width: 80px;
+        height: 80px;
+        opacity: 0.3
+    }
+    100% {
+        transform: rotate(720deg);
+        top: -150px;
+        width: 10px;
+        height: 10px;
+        opacity: 0.4
+    }
+}
+
+.xuan7 {
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    top: 880px;
+    left: 700px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: myseventh 22s linear 5s infinite normal;
+    -moz-animation: myseventh 22s linear 5s infinite normal;
+    /* Firefox */
+    -webkit-animation: myseventh 22s linear 5s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: myseventh 22s linear 5s infinite normal;
+    -ms-animation: myseventh 22s linear 5s infinite normal;
+}
+
+@keyframes myseventh {
+    0% {
+        transform: rotate(0deg);
+        top: 880px;
+    }
+    25% {
+        transform: rotate(90deg);
+        top: 600px;
+        width: 50px;
+        height: 50px;
+        opacity: 0.3
+    }
+    50% {
+        transform: rotate(180deg);
+        top: 400px;
+        width: 100px;
+        height: 100px;
+        opacity: 0.3
+    }
+    100% {
+        transform: rotate(270deg);
+        top: -270px;
+        width: 150px;
+        height: 150px;
+        opacity: 0.5
+    }
+}
+
+.xuan10 {
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 1100px;
+    left: 750px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: mytwelveth 20s linear 5s infinite normal;
+    animation-delay:-1.5s;
+    -moz-animation: mytwelveth 20s linear 5s infinite normal;
+    /* Firefox */
+    -webkit-animation: mytwelveth 20s linear 5s infinite normal;
+    -webkit-animation-delay:-1.5s;
+    /* Safari 和 Chrome */
+    -o-animation: mytwelveth 20s linear 5s infinite normal;
+    -ms-animation: mytwelveth 20s linear 5s infinite normal;
+    -ms-animation-delay:-1.5s;
+}
+
+@keyframes mytwelveth {
+    0% {
+        transform: rotate(0deg);
+        top: 1100px;
+    }
+    25% {
+        transform: rotate(180deg);
+        top: 700px;
+        width: 50px;
+        height: 50px;
+        opacity: 0.3
+    }
+    50% {
+        transform: rotate(360deg);
+        top: 350px;
+        width: 200px;
+        height: 200px;
+        opacity: 0.2
+    }
+    100% {
+        transform: rotate(720deg);
+        top: -150px;
+        width: 60px;
+        height: 60px;
+        opacity: 0.1
+    }
+}
+
+.xuan8 {
+    width: 80px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 1000px;
+    left: 850px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: myeightth 25s linear 5s infinite normal;
+    -moz-animation: myeightth 25s linear 5s infinite normal;
+    /* Firefox */
+    -webkit-animation: myeightth 25s linear 5s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: myeightth 25s linear 5s infinite normal;
+    -ms-animation: myeightth 25s linear 5s infinite normal;
+}
+
+@keyframes myeightth {
+    0% {
+        transform: rotate(0deg);
+        top: 1000px;
+    }
+    25% {
+        transform: rotate(90deg);
+        top: 700px;
+        width: 60px;
+        height: 60px;
+        opacity: 0.1
+    }
+    50% {
+        transform: rotate(180deg);
+        top: 400px;
+        width: 30px;
+        height: 30px;
+        opacity: 0.5
+    }
+    100% {
+        transform: rotate(270deg);
+        top: -200px;
+        width: 80px;
+        height: 80px;
+        opacity: 0.3
+    }
+}
+
+.xuan11 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 1400px;
+    left: 900px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: mytenth 25s linear 5s infinite normal;
+    -moz-animation: mytenth 25s linear 5s infinite normal;
+    /* Firefox */
+    -webkit-animation: mytenth 25s linear 5s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: mytenth 25s linear 5s infinite normal;
+    -ms-animation: mytenth 25s linear 5s infinite normal;
+}
+
+@keyframes mytenth {
+    0% {
+        transform: rotate(0deg);
+        top: 1400px;
+    }
+    25% {
+        transform: rotate(270deg);
+        top: 700px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.3
+    }
+    50% {
+        transform: rotate(540deg);
+        top: 300px;
+        width: 40px;
+        height: 40px;
+        opacity: 0.2
+    }
+    100% {
+        transform: rotate(810deg);
+        top: -150px;
+        width: 60px;
+        height: 60px;
+        opacity: 0.1
+    }
+}
+
+.xuan12 {
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: 1220px;
+    left: 950px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: myeleventh 20s linear 3s infinite normal;
+    -moz-animation: myeleventh 20s linear 3s infinite normal;
+    /* Firefox */
+    -webkit-animation: myeleventh 20s linear 3s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: myeleventh 20s linear 3s infinite normal;
+    -ms-animation: myeleventh 20s linear 3s infinite normal;
+}
+
+@keyframes myeleventh {
+    0% {
+        transform: rotate(0deg);
+        top: 1220px;
+    }
+    25% {
+        transform: rotate(90deg);
+        top: 700px;
+        width: 40px;
+        height: 40px;
+        opacity: 0.3
+    }
+    50% {
+        transform: rotate(180deg);
+        top: 500px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.1
+    }
+    100% {
+        transform: rotate(270deg);
+        top: -150px;
+        width: 60px;
+        height: 60px;
+        opacity: 0.1
+    }
+}
+
+.xuan9 {
+    width: 40px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    top: 1300px;
+    left: 1000px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: mynineth 20s linear 5s infinite normal;
+    -moz-animation: mynineth 20s linear 5s infinite normal;
+    /* Firefox */
+    -webkit-animation: mynineth 20s linear 5s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: mynineth 20s linear 5s infinite normal;
+    -ms-animation: mynineth 20s linear 5s infinite normal;
+}
+
+@keyframes mynineth {
+    0% {
+        transform: rotate(0deg);
+        top: 1300px;
+    }
+    25% {
+        transform: rotate(180deg);
+        top: 650px;
+        width: 150px;
+        height: 150px;
+        opacity: 0.3
+    }
+    50% {
+        transform: rotate(360deg);
+        top: 100px;
+        width: 180px;
+        height: 180px;
+        opacity: 0.2
+    }
+    100% {
+        transform: rotate(540deg);
+        top: -400px;
+        width: 100px;
+        height: 100px;
+        opacity: 0.1
+    }
+}
+
+.xuan13 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 900px;
+    left: 1100px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: mythirdth 25s linear 6s infinite normal;
+    -moz-animation: mythirdth 25s linear 6s infinite normal;
+    /* Firefox */
+    -webkit-animation: mythirdth 25s linear 6s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: mythirdth 25s linear 6s infinite normal;
+    -ms-animation: mythirdth 25s linear 6s infinite normal;
+}
+
+@keyframes mythirdth {
+    0% {
+        transform: rotate(0deg);
+        top: 900px;
+    }
+    25% {
+        transform: rotate(360deg);
+        top: 550px;
+        width: 50px;
+        height: 50px;
+        opacity: 0.3
+    }
+    50% {
+        transform: rotate(720deg);
+        top: 350px;
+        width: 100px;
+        height: 100px;
+        opacity: 0.2
+    }
+    100% {
+        transform: rotate(1180deg);
+        top: -150px;
+        width: 20px;
+        height: 20px;
+        opacity: 0.1
+    }
+}
+
+.xuan14 {
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 1300px;
+    left: 1200px;
+    opacity: 0.5;
+    z-index: 0;
+    animation: myfourth 20s linear 6s infinite normal;
+    -moz-animation: myfourth 20s linear 6s infinite normal;
+    /* Firefox */
+    -webkit-animation: myfourth 20s linear 6s infinite normal;
+    /* Safari 和 Chrome */
+    -o-animation: myfourth 20s linear 6s infinite normal;
+    -ms-animation: myfourth 20s linear 6s infinite normal;
+}
+
+@keyframes myfourth {
+    0% {
+        transform: rotate(0deg);
+        top: 1300px;
+    }
+    25% {
+        transform: rotate(90deg);
+        top: 700px;
+        width: 40px;
+        height: 40px;
+        opacity: 0.3
+    }
+    50% {
+        transform: rotate(180deg);
+        top: 450px;
+        width: 50px;
+        height: 50px;
+        opacity: 0.2
+    }
+    100% {
+        transform: rotate(270deg);
+        top: -450px;
+        width: 300px;
+        height: 300px;
+        opacity: 0.1
+    }
+}
+
+.panel {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.panel-default>.panel-heading {
+    background-color: rgba(245, 245, 245, 0.42);
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.64);
+}

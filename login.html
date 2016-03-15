@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 禁止响应式 -->
+    <meta name="force-renderer" content="webkit">
+    <meta charset='utf-8'>
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/none-responsive.css" rel="stylesheet">
+    <!-- 禁止响应式 -->
+    <style type="text/css">
+    a {
+        cursor: pointer;
+    }
+    
+    .col-xs-4 {
+        background-color: transparent;
+        border: 0;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    </style>
+</head>
+
+<body style='padding-top:0px;'>
+    <div class='back'>
+        <div class='xuan1'></div>
+        <div class='xuan2'></div>
+        <div class="xuan3"></div>
+        <div class="xuan4"></div>
+        <div class="xuan5"></div>
+        <div class="xuan6"></div>
+        <div class="xuan7"></div>
+        <div class="xuan8"></div>
+        <div class="xuan9"></div>
+        <div class="xuan10"></div>
+        <div class='xuan11'></div>
+        <div class="xuan12"></div>
+        <div class="xuan13"></div>
+        <div class="xuan14"></div>
+        <img src="img/1.png" class='money1'>
+        <img src="img/2.png" class='money2'>
+        <img src="img/1.png" class='money3'>
+        <img src="img/2.png" class='money4'>
+        <img src="img/1.png" class='money5'>
+        <img src="img/2.png" class='money6'>
+        <img src="img/1.png" class='money7'>
+        <img src="img/2.png" class='money8'>
+    </div>
+    <div class="modal fade" id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+        <div class="modal-dialog" role='document'>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                        <span aria-hidden='true'>&times</span>
+                    </button>
+                    <h4>客服中心</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="panel panel-default">
+                        <div class="panel-body" style='padding-bottom:0px;padding-top:0px;'>
+                            <table class="table" style='margin-bottom:0;'>
+                                <thead>
+                                    <td>姓名</td>
+                                    <td>联系方式</td>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>客服咚咚</td>
+                                        <td>
+                                            <a href="tencent://message/?uin=2853673257&site=qq&menu=yes" style="padding:5px 0 15px 20px;background:url(img/kf_bg.png) no-repeat 0 0;height:25px;width:75px"><span style='margin-right:8px;'>客服咚咚</span></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>客服小瑾</td>
+                                        <td><a href="tencent://message/?uin=2853673255&site=qq&menu=yes" style="padding:5px 0 15px 20px;background:url(img/kf_bg.png) no-repeat 0 0;height:25px;width:75px"><span style='margin-right:8px;'>客服小瑾</span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>客服小喆</td>
+                                        <td><a href="tencent://message/?uin=2853673256&site=qq&menu=yes" style="padding:5px 0 15px 20px;background:url(img/kf_bg.png) no-repeat 0 0;height:25px;width:75px"><span style='margin-right:8px;'>客服小喆</span></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class="col-xs-3 col-xs-offset-1">
+            <img src="img/title.png" style='height:60px;width:60px;'>
+            <label>
+                <h3>开仓进宝</h3></label>
+        </div>
+    </div>
+    <div class="row" style="padding-top:80px;">
+        <div class="col-xs-3 col-xs-offset-1">
+            <img src="img/title.png" style='height:400px;width:400px;'>
+        </div>
+        <div class="col-xs-3 col-xs-offset-3" style='padding-top:80px;'>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="row">
+                        <!-- 这个行必须写，不然头撑不起来 -->
+                        <div class="col-xs-4 pull-left">
+                            <span><strong>登录</strong></span>
+                        </div>
+                        <div class="col-xs-4 pull-right" style='text-align:right;'>
+                            <a data-toggle='modal' data-target='#myModal'>联系客服</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal" name="myLogin">
+                        <div class="form-group" style='margin-bottom:0px;'>
+                            <!-- <div class="row"> -->
+                            <label class="col-xs-3" style='padding-left:25px;padding-right:0px;padding-top:5px;'>用户名:
+                            </label>
+                            <div class="col-xs-7">
+                                <input type='text' class='form-control' placeholder='用户名' name="username" required id='login_userid'>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                        <span id='_userName' style='padding-left:90px;padding-top:-10px;'></span>
+                        <div class="form-group" style='margin-bottom:0px;'>
+                            <!-- <div class="row"> -->
+                            <label class="col-xs-3" style='padding-left:25px;padding-right:0px;padding-top:5px;'>密码:
+                            </label>
+                            <div class="col-xs-7">
+                                <input type='password' class='form-control' placeholder='密码' name="password" required id='login_userpass'>
+                            </div>
+                            <!--  </div> -->
+                        </div>
+                        <span id='_passWord' style='padding-left:90px;padding-top:-10px;'></span>
+                        <div class="row">
+                            <div class="col-xs-3 col-xs-offset-3">
+                                <a tabindex='0' role='button' data-toggle='popover' data-trigger='focus' data-content="请联系客服" data-placement='left'><small>找回密码</small></a>
+                            </div>
+                            <div class="col-xs-3 col-xs-offset-1">
+                                <a href='register.html'><small>免费注册</small></a>
+                            </div>
+                        </div>
+                        <div class="form-group" style='margin-bottom:0px;'>
+                            <!-- <div class="row"> -->
+                            <div class="col-xs-3 col-xs-offset-1" style='padding:0px;padding-top:10px;padding-left:10px;'>
+                                <input type='button' class='btn btn-success' value='用户登录' id="userLogin">
+                            </div>
+                            <div class="col-xs-3 col-xs-offset-4" style='padding:0px;padding-top:10px;'>
+                                <input type='button' class='btn btn-primary' value='游客体验' id="travler">
+                            </div>
+                            <!--  </div> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div style="position:absolute;height:20px;background-color:rgba(51, 51, 51, 0.42);bottom:0px;width:100%;text-align:center;color:#aaa;">
+            <span><a style='color:#A7B733;cursor:auto;'>天囊投资有限公司|沪ICP备15019763号-1</a></span>
+        </div>
+    </footer>
+</body>
+<script src='js/login.js'></script>
+<script src='js/check1.js'></script>
+
+</html>

@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 禁止响应式 -->
+    <meta name="force-renderer" content="webkit">
+    <meta charset='utf-8'>
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/none-responsive.css" rel="stylesheet" type='text/css'>
+    <!-- 不是响应式的 -->
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <style type="text/css">
+    .panel-default {
+        margin-bottom: 0px;
+        border-color: #ddd;
+    }
+    
+    .col-sm-4 {
+        padding: 0px;
+        border: 0px;
+    }
+    
+    body {
+        padding: 0px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class='back'>
+        <div class='xuan1'></div>
+        <div class='xuan2'></div>
+        <div class="xuan3"></div>
+        <div class="xuan4"></div>
+        <div class="xuan5"></div>
+        <div class="xuan6"></div>
+        <div class="xuan7"></div>
+        <div class="xuan8"></div>
+        <div class="xuan9"></div>
+        <div class="xuan10"></div>
+        <div class='xuan11'></div>
+        <div class="xuan12"></div>
+        <div class="xuan13"></div>
+        <div class="xuan14"></div>
+        <img src="img/1.png" class='money1'>
+        <img src="img/2.png" class='money2'>
+        <img src="img/1.png" class='money3'>
+        <img src="img/2.png" class='money4'>
+        <img src="img/1.png" class='money5'>
+        <img src="img/2.png" class='money6'>
+        <img src="img/1.png" class='money7'>
+        <img src="img/2.png" class='money8'>
+    </div>
+    <div class="col-xs-3 col-xs-offset-1">
+        <img src="img/title.png" style='height:60px;width:60px;'>
+        <label>
+            <h3>开仓进宝</h3></label>
+    </div>
+    <div class="row" style='padding-top:150px;'>
+        <div class="col-xs-3 col-xs-offset-1">
+            <img src="img/title.png" style='height:400px;width:400px;'>
+        </div>
+        <div class="col-sm-4 col-sm-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <label>注册</label>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal" name="myLogup">
+                        <div class="form-group has-feedback" style='margin-bottom:0px;' id='userId'>
+                            <label class="col-sm-3 control-label">用户名</label>
+                            <!-- control-label默认文本右对齐 -->
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" placeholder="只能是数字、字母 长度3~20" name="username" id='userInput' required>
+                                <span class='glyphicon glyphicon-remove form-control-feedback' aria-hidden='true'></span>
+                                <span class='glyphicon glyphicon-ok form-control-feedback' aria-hidden='true'></span>
+                            </div>
+                        </div>
+                        <span id='myname' style='padding-left:120px;padding-top:-10px;'></span>
+                        <div class="form-group has-feedback" style='margin-bottom:0px;' id='nickId'>
+                            <label class="col-sm-3 control-label">昵称</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" placeholder="字母、数字、汉字，2~10位，连续数字不能超过5个" name="nickname" id='nick' required>
+                                <span class='glyphicon glyphicon-remove form-control-feedback' aria-hidden='true'></span>
+                                <span class='glyphicon glyphicon-ok form-control-feedback' aria-hidden='true'></span>
+                            </div>
+                        </div>
+                        <span id='nickname' style='padding-left:120px;padding-top:-10px;'></span>
+                        <div class="form-group has-feedback" style='margin-bottom:0px;' id='qqNum'>
+                            <label for="" class="col-sm-3 control-label">QQ</label>
+                            <div class="col-sm-8">
+                                <input type="password" class="form-control" placeholder="QQ" name="qq" id='qq'>
+                                <!-- qq格式 -->
+                                <span class='glyphicon glyphicon-remove form-control-feedback' aria-hidden='true'></span>
+                                <span class='glyphicon glyphicon-ok form-control-feedback' aria-hidden='true'></span>
+                            </div>
+                        </div>
+                        <span id="qie" style='padding-left:120px;padding-top:-10px;'></span>
+                        <div class="form-group has-feedback" style='margin-bottom:0px;' id='passId'>
+                            <label class="col-sm-3 control-label">密码</label>
+                            <div class="col-sm-8">
+                                <input type="password" class="form-control" placeholder="请输入密码 6~20" name="password" id='pass' required>
+                                <span class='glyphicon glyphicon-remove form-control-feedback' aria-hidden='true'></span>
+                                <span class='glyphicon glyphicon-ok form-control-feedback' aria-hidden='true'></span>
+                            </div>
+                        </div>
+                        <span id='pass1' style='padding-left:120px;padding-top:-10px;'></span>
+                        <div class="form-group has-feedback" style='margin-bottom:0px;' id='pass2Id'>
+                            <label for="" class="col-sm-3 control-label">确认密码</label>
+                            <div class="col-sm-8">
+                                <input type="password" class="form-control" placeholder="确认密码" name="repeat" id='passsure' required>
+                                <span class='glyphicon glyphicon-remove form-control-feedback' aria-hidden='true'></span>
+                                <span class='glyphicon glyphicon-ok form-control-feedback' aria-hidden='true'></span>
+                            </div>
+                        </div>
+                        <span id='pass2' style='padding-left:120px;padding-top:-10px;'></span>
+                        <div class="form-group">
+                            <div class="col-sm-3 col-sm-offset-8" style='text-align:right;'>
+                                <input type="button" id="submit" class="btn btn-primary" value="注册">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div style="position:absolute;height:20px;background-color:rgba(51, 51, 51, 0.42);bottom:0px;width:100%;text-align:center;color:#aaa;">
+            <span><a style='color:#A7B733;cursor:auto;'>天囊投资有限公司|沪ICP备15019763号-1</a></span>
+        </div>
+    </footer>
+</body>
+<script type="text/ecmascript" src='js/md5.js'></script>
+<script src='js/register.js'></script>
+<script src='js/check1.js'></script>
+<script src='js/check2.js'></script>
+<script src='js/jquery-1.11.2.min.js'></script>
+<!-- <script src='js/placeholder.js'></script> -->
+<script type="text/javascript">
+window.onload = function() {
+        $(".glyphicon").hide();
+        personal();
+        $('#submit').click(function(event) { //提交按钮
+            var allDone = checkAll(userBin, nickBin, qqBin, passBin, passBin2, passBinCheck);
+            console.log(allDone);
+            if (allDone) //如果填写全部正确
+            {
+                var QQ = hex_md5(passWord.value); //加密后的qq
+                $.ajax({
+                        url: '/api/regist',
+                        type: 'POST',
+                        dataType: 'json', //发注册信息
+                        data: {
+                            nickname: $("input[name='nickname']").val(),
+                            username: $("input[name='username']").val(),
+                            qq: QQ,
+                            password: $("input[name='password']").val(),
+                            repeat: $("input[name='repeat']").val(),
+                            device: "web"
+                        }
+                    })
+                    .done(function(obj) {
+                        console.log("success");
+                        // if (obj.status == 200) { //？？
+                        //     alert(obj.msg);
+                        //     window.location.href = '/index.html';
+                        // } else {
+                        //     alert(obj.msg);
+                        // }
+                        if (obj.succ == 0) {
+                        alert("注册成功，点击确定后进入房间！");
+                        window.location.href = "/index.html";
+                    } else {
+                        alert(obj.msg);
+                    }
+                        //得到信息
+                        //判断是否注册成功
+                        //如果成功 alert();自动登录，页面跳转
+                        //如果失败，返回失败原因
+                    })
+                    .fail(function() {
+                        console.log();
+                        console.log("error");
+                    })
+            }
+            if (!allDone) {
+                event.preventDefault();
+                alert('信息填写不正确');
+            }
+
+        });
+    }
+    // jQuery('input[placeholder]').placeholder();
+</script>
+
+</html>
